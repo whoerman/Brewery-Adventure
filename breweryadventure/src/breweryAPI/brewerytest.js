@@ -801,3 +801,4 @@ let breweries = [
     }
 ]
 
+export default breweries
