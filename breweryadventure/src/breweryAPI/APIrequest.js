@@ -1,15 +1,15 @@
-import axios from "axios";
+// import axios from "axios";
 
-function getBreweries() {
+// function getBreweries() {
 
-    let state = "ohio"
+//     let state = "ohio"
 
-    axios.get(`https://api.openbrewerydb.org/breweries?by_state=${state}`)
-      .then((response) => {
-        let currentBreweries = response.data;
-        console.log(currentBreweries);
-      });
-      return getBreweries
-}
+//     axios.get(`https://api.openbrewerydb.org/breweries?by_state=${state}`)
+//       .then((response) => {
+//         let currentBreweries = response.data;
+//         console.log(currentBreweries);
+//       });
+//       return getBreweries
+// }
 
 
