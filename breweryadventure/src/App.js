@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import StatesObj from "../src/MapSetup/InitialStates";
+import StatesObj from "../src/USAMap/InitialStates";
 import Navbartop from "../src/components/Navbartop";
 import USAMap from "react-usa-map";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'; 
 import Container from 'react-bootstrap/Container';
+import BreweryList from './breweryAPI/breweryListFormat';
 
 class App extends Component {
 
@@ -22,12 +23,13 @@ class App extends Component {
       <div className="App">
         <Navbartop/>
         <Container fluid>
-          <Row>
-            <Col col-={7} className ="MapDiv">
+          <Row className ="MapDiv">
+            <Col xs={6} m={4}>
               <USAMap onClick={this.handleStateClick} customize={StatesObj} />
             </Col>
-            <Col col-={4} className ="ListDiv">
-              <p>Bacon leberkas. </p></Col>
+            <Col xs={6} m={4}>
+              <BreweryList/>
+            </Col>
           </Row>
         </Container>
       </div>

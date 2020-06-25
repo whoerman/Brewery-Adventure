@@ -6,7 +6,8 @@
 .MapDiv {
   background-color: #ddf1f7;
   justify-content: left;
-  padding: 1rem;
+  height: auto;
+  border: 3px solid green;
 }
 .ListDiv {
   background-color: #ddf1f7;

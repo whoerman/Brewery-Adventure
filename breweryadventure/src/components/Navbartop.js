@@ -9,11 +9,12 @@ function Navbartop() {
   
     return (
       <div className="NavBarDiv">
-        <Container>
+        <Container fluid>
         <Navbar expand="lg" variant="light" bg="light">
         <div>
             <Navbar.Brand><h1 className="logotext"><FontAwesomeIcon icon={faBeer} /> Brewery Adventure</h1></Navbar.Brand>
         </div>
+        
         </Navbar>
         </Container>
       </div>
