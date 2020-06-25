@@ -157,13 +157,13 @@
         },
         "NC": {
           fill: "#ac241a",
-          fullName: "North Carolina",
+          fullName: "North_Carolina",
           clicked: false,
           originalFill: "#ac241a"
         },
         "ND": {
           fill: "#edae2a",
-          fullName: "North Dakota",
+          fullName: "North_Dakota",
           clicked: false,
           originalFill: "#edae2a"
         },
@@ -175,19 +175,19 @@
         },
         "NH": {
           fill: "#fefb71",
-          fullName: "New Hampshire",
+          fullName: "New_Hampshire",
           clicked: false,
           originalFill: "#fefb71"
         },
         "NJ": {
           fill: "#edae2a",
-          fullName: "New Jersey",
+          fullName: "New_Jersey",
           clicked: false,
           originalFill: "#edae2a"
         },
         "NM": {
           fill: "#edae2a",
-          fullName: "New Mexico",
+          fullName: "New_Mexico",
           clicked: false,
           originalFill: "#edae2a"
         },
@@ -199,7 +199,7 @@
         },
         "NY": {
           fill: "#fefb71",
-          fullName: "New York",
+          fullName: "New_York",
           clicked: false,
           originalFill: "#fefb71"
         },
@@ -229,19 +229,19 @@
         },
         "RI": {
           fill: "#fefb71",
-          fullName: "Rhode Island",
+          fullName: "Rhode_Island",
           clicked: false,
           originalFill: "#fefb71"
         },
         "SC": {
           fill: "#edae2a",
-          fullName: "South Carolina",
+          fullName: "South_Carolina",
           clicked: false,
           originalFill: "#edae2a"
         },
         "SD": {
           fill: "#ac241a",
-          fullName: "South Dakota",
+          fullName: "South_Dakota",
           clicked: false,
           originalFill: "#ac241a"
         },
@@ -289,7 +289,7 @@
         },
         "WV": {
           fill: "#ac241a",
-          fullName: "West Viginia",
+          fullName: "West_Viginia",
           clicked: false,
           originalFill: "#ac241a"
         },

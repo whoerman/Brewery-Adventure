@@ -13,10 +13,13 @@ import USAMap from "react-usa-map";
  
 class App extends Component {
 
+
   /* mandatory */
-  mapHandler = (event) => {
+ handleStateClick = (event) => {
     let stateAbbrev = event.target.dataset.name;
     console.log(stateAbbrev);
+    let currentState = StatesObj[stateAbbrev];
+    console.log(currentState.fullName);
   }
  
   render() {
@@ -24,7 +27,7 @@ class App extends Component {
       <div classname="App">
         <Container fluid>
           <Row>
-            <Col sm={8}><USAMap onClick={this.mapHandler} customize={StatesObj} /></Col>
+            <Col sm={8}><USAMap onClick={this.handleStateClick} customize={StatesObj} /></Col>
             <Col sm={4}><p>Bacon ipsum dolor amet hamburger pork ham, shankle sausage tail andouille pig venison porchetta spare ribs biltong frankfurter pastrami. Leberkas pig picanha sausage prosciutto, swine ham turducken ground round kevin alcatra chislic bacon. Buffalo pork chop ham leberkas. </p></Col>
           </Row>
         </Container>
