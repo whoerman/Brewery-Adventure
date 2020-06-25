@@ -1,21 +1,21 @@
     const StatesObj = {
         "AK": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "Alaska",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         },
         "AL": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "Alabama",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         },
         "AR": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "Arkansas",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         },
         "AZ": {
           fill: "#ac241a",
@@ -24,10 +24,10 @@
           originalFill: "#ac241a"
         },
         "CA": {
-          fill: "#cec721",
+          fill: "#ef850d",
           fullName: "California",
           clicked: false,
-          originalFill: "#cec721"
+          originalFill: "#ef850d"
         },
         "CO": {
           fill: "#691e21",
@@ -42,16 +42,16 @@
           originalFill: "#ac241a"
         },
         "DE": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "Deleware",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         },
         "FL": {
-          fill: "#cec721",
+          fill: "#ef850d",
           fullName: "Florida",
           clicked: false,
-          originalFill: "#cec721"
+          originalFill: "#ef850d"
         },
         "GA": {
           fill: "#691e21",
@@ -60,16 +60,16 @@
           originalFill: "#691e21"
         },
         "HI": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "Hawaii",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         },
         "IA": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "Iowa",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         },
         "ID": {
           fill: "#691e21",
@@ -78,10 +78,10 @@
           originalFill: "#691e21"
         },
         "IL": {
-          fill: "#cec721",
+          fill: "#ef850d",
           fullName: "Illinois",
           clicked: false,
-          originalFill: "#cec721"
+          originalFill: "#ef850d"
         },
         "IN": {
           fill: "#ac241a",
@@ -90,16 +90,16 @@
           originalFill: "#ac241a"
         },
         "KS": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "Kansas",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         },
         "KY": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "Kentucky",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         },
         "LA": {
           fill: "#691e21",
@@ -114,10 +114,10 @@
           originalFill: "#691e21"
         },
         "MD": {
-          fill: "#cec721",
+          fill: "#ef850d",
           fullName: "Maryland",
           clicked: false,
-          originalFill: "#cec721"
+          originalFill: "#ef850d"
         },
         "ME": {
           fill: "#691e21",
@@ -150,10 +150,10 @@
           originalFill: "#ac241a"
         },
         "MT": {
-          fill: "#cec721",
+          fill: "#ef850d",
           fullName: "Montana",
           clicked: false,
-          originalFill:  "#cec721"
+          originalFill:  "#ef850d"
         },
         "NC": {
           fill: "#ac241a",
@@ -162,52 +162,52 @@
           originalFill: "#ac241a"
         },
         "ND": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "North_Dakota",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         },
         "NE": {
-          fill: "#cec721",
+          fill: "#ef850d",
           fullName: "Nebraska",
           clicked: false,
-          originalFill: "#cec721"
+          originalFill: "#ef850d"
         },
         "NH": {
-          fill: "#cec721",
+          fill: "#ef850d",
           fullName: "New_Hampshire",
           clicked: false,
-          originalFill: "#cec721"
+          originalFill: "#ef850d"
         },
         "NJ": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "New_Jersey",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         },
         "NM": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "New_Mexico",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         },
         "NV": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "Nevada",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         },
         "NY": {
-          fill: "#cec721",
+          fill: "#ef850d",
           fullName: "New_York",
           clicked: false,
-          originalFill: "#cec721"
+          originalFill: "#ef850d"
         },
         "OH": {
-          fill: "#cec721",
+          fill: "#ef850d",
           fullName: "Ohio",
           clicked: false,
-          originalFill: "#cec721"
+          originalFill: "#ef850d"
         },
         "OK": {
           fill: "#ac241a",
@@ -228,16 +228,16 @@
           originalFill: "#691e21"
         },
         "RI": {
-          fill: "#cec721",
+          fill: "#ef850d",
           fullName: "Rhode_Island",
           clicked: false,
-          originalFill: "#cec721"
+          originalFill: "#ef850d"
         },
         "SC": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "South_Carolina",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         },
         "SD": {
           fill: "#ac241a",
@@ -246,22 +246,22 @@
           originalFill: "#ac241a"
         },
         "TN": {
-          fill: "#cec721",
+          fill: "#ef850d",
           fullName: "Tennessee",
           clicked: false,
-          originalFill: "#cec721"
+          originalFill: "#ef850d"
         },
         "TX": {
-          fill: "#cec721",
+          fill: "#ef850d",
           fullName: "Texas",
           clicked: false,
-          originalFill: "#cec721"
+          originalFill: "#ef850d"
         },
         "UT": {
-          fill: "#cec721",
+          fill: "#ef850d",
           fullName: "Utah",
           clicked: false,
-          originalFill: "#cec721"
+          originalFill: "#ef850d"
         },
         "VA": {
           fill: "#691e21",
@@ -276,10 +276,10 @@
           originalFill: "#ac241a"
         },
         "WA": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "Washington",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         },
         "WI": {
           fill: "#ac241a",
@@ -294,10 +294,10 @@
           originalFill: "#ac241a"
         },
         "WY": {
-          fill: "#edae2a",
+          fill: "#c06b0b",
           fullName: "Wyoming",
           clicked: false,
-          originalFill: "#edae2a"
+          originalFill: "#c06b0b"
         }
     
     };

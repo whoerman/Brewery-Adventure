@@ -1,9 +1,6 @@
 import React from "react";
 import '../breweryAPI/brwerylistformat.css';
-import currentBreweries from "../App"
-
-import { faBeer } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import currentBreweries from "../App";
 
 function BreweryListFormat() {
     console.log(currentBreweries);

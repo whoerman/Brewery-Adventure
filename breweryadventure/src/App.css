@@ -1,12 +1,17 @@
 .App {
-  text-align: center;
-  background-color: #988754;
+  text-align: left;
+  background-color: #ddf1f7;
 }
 
 .MapDiv {
-  background-color: #988754;
+  background-color: #ddf1f7;
   justify-content: left;
-  padding: 0rem;
+  padding: 1rem;
+}
+.ListDiv {
+  background-color: #ddf1f7;
+  justify-content: right;
+  padding: 1rem;
 }
 
 path {
