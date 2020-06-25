@@ -4,7 +4,16 @@
 }
 
 .MapDiv {
-
+  background-color: #988754;
   justify-content: left;
   padding: 0rem;
+}
+
+path {
+  pointer-events: all;
+}
+path:hover {
+  cursor: pointer;
+  fill: #fefb71;
+  
 }

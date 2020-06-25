@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import StatesObj from "../src/MapSetup/InitialStates";
 import Navbartop from "../src/components/Navbartop";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import USAMap from "react-usa-map";
+import BreweryListFormat from "../src/breweryAPI/brewerylistformat"
 import axios from "axios";
  
 class App extends Component {
@@ -17,7 +15,7 @@ class App extends Component {
     axios.get(`https://api.openbrewerydb.org/breweries?by_state=${StatesObj[event.target.dataset.name].fullName}`)
     .then((response) => {
       let currentBreweries = response.data;
-      console.log(currentBreweries);
+      BreweryListFormat(currentBreweries)
     });
     
   }
@@ -26,15 +24,11 @@ class App extends Component {
     return (
       <div className="App">
         <Navbartop/>
-        <div className="MapDiv">
-          <div className="col-7 col-md-7">
-          <USAMap onClick={this.handleStateClick} customize={StatesObj} />
-          </div>
-          <div className="col-4 col-md-4">
-          <p>currentBreweries </p>
-          </div>
-      </div>
-      </div>
+        <div className ="row">
+          <div><USAMap classname="MapDiv" onClick={this.handleStateClick} customize={StatesObj} /></div>
+          <div><p>Bacon ipsum dolor amet hamburger pork ham, shankle sausage tail andouille pig venison porchetta spare ribs biltong frankfurter pastrami. Leberkas pig picanha sausage prosciutto, swine ham turducken ground round kevin alcatra chislic bacon. Buffalo pork chop ham leberkas. </p></div>
+        </div>
+            </div>
     );
   }
 }
