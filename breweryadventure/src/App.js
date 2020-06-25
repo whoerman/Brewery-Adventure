@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import StatesObj from "../src/MapSetup/InitialStates";
+import Navbartop from "../src/components/Navbartop";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -24,12 +25,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Container>
-          <Row>
-            <Col sm={8}><USAMap onClick={this.handleStateClick} customize={StatesObj} /></Col>
-            <Col sm={4}><p>Bacon ipsum dolor amet hamburger pork ham, shankle sausage tail andouille pig venison porchetta spare ribs biltong frankfurter pastrami. Leberkas pig picanha sausage prosciutto, swine ham turducken ground round kevin alcatra chislic bacon. Buffalo pork chop ham leberkas. </p></Col>
-          </Row>
-        </Container>
+        <Navbartop/>
+        <div className="MapDiv">
+          <div className="col-7 col-md-7">
+          <USAMap onClick={this.handleStateClick} customize={StatesObj} />
+          </div>
+          <div className="col-4 col-md-4">
+          <p>currentBreweries </p>
+          </div>
+      </div>
       </div>
     );
   }

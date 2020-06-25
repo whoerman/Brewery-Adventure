@@ -2,3 +2,9 @@
   text-align: center;
   background-color: #988754;
 }
+
+.MapDiv {
+
+  justify-content: left;
+  padding: 0rem;
+}
