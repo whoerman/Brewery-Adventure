@@ -13,24 +13,9 @@ class App extends Component {
  
   /* mandatory */
  handleStateClick = (event) => {
-    const [stateName, setstateName] = useState(0);
 
-    setstateName(StatesObj[event.target.dataset.name].fullName);
-    console.log(stateName)
-    
-
-
-    // let currentState = StatesObj[event.target.dataset.name].fullName;
-    // console.log(currentState); 
-    // currentBreweries(currentState);
-    // console.log(currentBreweries)
-
-    // axios.get(`https://api.openbrewerydb.org/breweries?by_state=${StatesObj[event.target.dataset.name].fullName}`)
-    // .then((response) => {
-    //   let currentBreweries = response.data;
-    //   // console.log(StatesObj[event.target.dataset.name].fullName);
-    //   console.log(currentBreweries)
-    // });
+    let currentClickedState = StatesObj[event.target.dataset.name].fullName;
+    console.log(currentClickedState);
   }
 
   render() {
