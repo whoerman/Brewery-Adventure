@@ -2,8 +2,9 @@
     background-color: #691e21;
     color: #ffffff;
     margin: auto;
-    height: auto;
+    height: 100px;
     border: 3px solid green;
+    
 }
 
 .logotext {
@@ -11,5 +12,14 @@
     position: relative;
     margin: auto;
     width: 100%;
+    padding: 0rem;
+}
+
+
+.openDBlogo {
+    position: relative;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
     padding: 0rem;
 }

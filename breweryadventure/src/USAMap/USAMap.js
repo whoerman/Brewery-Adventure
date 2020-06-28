@@ -1,8 +1,5 @@
 import React, { useContext, useEffect } from 'react';
 import ReactMap from "react-usa-map";
-import ChartContext from '../../Context/ChartContext';
-import API from "../../util/API";
-
 
 const USAMap = () => {
 
