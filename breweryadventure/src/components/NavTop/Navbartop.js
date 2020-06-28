@@ -20,7 +20,7 @@ function Navbartop() {
             <h4> database available from: </h4> 
           </div> 
           <div className="col-md-2">
-            <img src = {OpenBreweryDBLogo} alt = "Open Brewery Logo" className = "openDBlogo" />
+            <img src = {OpenBreweryDBLogo} alt ="Open Brewery Logo" className = "openDBlogo" />
           </div> 
         </div> 
       </Navbar> 

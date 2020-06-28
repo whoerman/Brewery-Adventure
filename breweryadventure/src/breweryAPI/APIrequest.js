@@ -1,14 +1,15 @@
-// import axios from "axios";
+import axios from "axios";
 
-// function getBreweries() {
+function currentBreweries() {
 
-    // axios.get(`https://api.openbrewerydb.org/breweries?by_state=${StatesObj[event.target.dataset.name].fullName}`)
-    // .then((response) => {
-    //   let currentBreweries = response.data;
-    //   // console.log(StatesObj[event.target.dataset.name].fullName);
-    //   console.log(currentBreweries)
-    // });
+    axios.get(`https://api.openbrewerydb.org/breweries?by_state=${currentState}`)
+    .then((response) => {
+      let currentBreweries = response.data;
+      console.log(currentBreweries)
+    });
     
-// }
+}
+
+return currentBreweries
 
 
