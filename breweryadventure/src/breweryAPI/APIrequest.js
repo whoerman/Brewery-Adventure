@@ -1,8 +1,9 @@
 import axios from "axios";
+import currentClickedState from "../USAMap/USAMap"
 
 function currentBreweries() {
 
-    axios.get(`https://api.openbrewerydb.org/breweries?by_state=${currentState}`)
+    axios.get(`https://api.openbrewerydb.org/breweries?by_state=${currentClickedState}`)
     .then((response) => {
       let currentBreweries = response.data;
       console.log(currentBreweries)
@@ -10,6 +11,6 @@ function currentBreweries() {
     
 }
 
-return currentBreweries
+export default currentBreweries
 
 

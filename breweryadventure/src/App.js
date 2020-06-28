@@ -3,6 +3,7 @@ import './App.css';
 import Navbartop from "../src/components/NavTop/Navbartop";
 import USAMap from "../src/USAMap/USAMap";
 import Container from 'react-bootstrap/Container';
+import BreweryList from './breweryAPI/BreweryList';
 
 
 class App extends Component {
@@ -18,7 +19,8 @@ class App extends Component {
               <USAMap/>
             </div>
             <div className="col-md-4 MapDiv">
-              <h3 className="text-center">Brewery List</h3>
+              <h4>Brewery List</h4>
+              <BreweryList/>
             </div>
           </div>
         </Container>
